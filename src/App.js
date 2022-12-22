@@ -87,7 +87,14 @@ function App() {
         />
       </div>
 
-      <Modal open={openPopup} onClose={onCloseModal} center showCloseIcon={false} classNames={{ modal: 'customModal' }}>
+      <Modal
+        closeOnOverlayClick={false}
+        open={openPopup}
+        onClose={onCloseModal}
+        center
+        showCloseIcon={false}
+        classNames={{ modal: 'customModal' }}
+      >
         <div
           style={{
             backgroundImage: `url(${PopupImg})`,
