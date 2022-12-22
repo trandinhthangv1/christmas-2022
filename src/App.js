@@ -21,7 +21,7 @@ function App() {
 
   const handleClick = async () => {
     try {
-      const data = await fetch('http://localhost:3001/api/christmas-2022', {
+      const data = await fetch('https://christmas-2022-be.vercel.app/christmas-2022', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
