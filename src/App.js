@@ -10,7 +10,7 @@ import BackgroundImg from './images/bg.png';
 import PopupImg from './images/popup.png';
 
 function App() {
-  const [openPopup, setOpenPopup] = useState(true);
+  const [openPopup, setOpenPopup] = useState(false);
   const [number, setNumber] = useState();
   const [name, setName] = useState('');
   const [nameBank, setNameBank] = useState('');
